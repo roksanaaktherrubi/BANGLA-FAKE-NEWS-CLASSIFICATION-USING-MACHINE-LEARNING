@@ -29,6 +29,9 @@ Step 4: Then split the dataset into 70% and 30% where 70% is for training and 30
 Step 5:  Use Machine learning models (Random Forest, Logistic Regression, KNN, Decision Tree).
 Step 6:   Calculate Recall, Precision, F1 Score, and Accuracy for every model. From these Metrics, we have got the best model for which we have got the best accuracy.
 
+
+
+
 ![table](https://user-images.githubusercontent.com/123116162/214582925-21bd31ed-9f0c-44e4-8bea-69f6b61e818e.png)
 
 
