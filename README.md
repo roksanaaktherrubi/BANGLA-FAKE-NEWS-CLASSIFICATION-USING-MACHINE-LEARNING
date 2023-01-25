@@ -13,6 +13,33 @@ The provided dataset contains around 8.5k news data on the different news portal
 ![dataset](https://user-images.githubusercontent.com/123116162/214581991-b0684397-4d1f-4a45-b41e-611d6f122e34.png)
 
 
+Approach
+
+ The dataset contains raw data and we have cleaned this dataset by removing stop-words, special characters, and punctuations in the pre-processing stage. For separating every word, we have used here tokenization. Then we extracted the features from the news data using TF-IDF. The following diagram is for workflow:
+ 
+ ![approach](https://user-images.githubusercontent.com/123116162/214582599-6de407e9-192d-43e3-b38c-3fd508ce6e0b.png)
+ 
+ 
+ 
+We have classified the news according to the following steps:
+Step 1:  Load the dataset.
+Step 2:  Remove stop words, punctuations, and special characters.
+Step 3:  Use TF-IDF for feature extraction.
+Step 4: Then split the dataset into 70% and 30% where 70% is for training and 30% is for testing part.  
+Step 5:  Use Machine learning models (Random Forest, Logistic Regression, KNN, Decision Tree).
+Step 6:   Calculate Recall, Precision, F1 Score, and Accuracy for every model. From these Metrics, we have got the best model for which we have got the best accuracy.
+
+![table](https://user-images.githubusercontent.com/123116162/214582925-21bd31ed-9f0c-44e4-8bea-69f6b61e818e.png)
+
+
+Conclusion
+Here, Logistic Regression model performs better than the other models to classify fake and real news. We can improve the accuracy by increasing the dataset and using deep learning models in the future.
+
+
+
+
+
+
 
 
 
